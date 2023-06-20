@@ -18,8 +18,8 @@ do{
             monto = prompt("Bienvenido " + numero + " ingrese el monto a recargar(Mayor o igual a 100): ");
             saldo = saldo + monto;
           }
-          pago = parseInt(prompt("Ingrese como va a recargar:\n 1. Tarjeta de Credito. \n2. Tarjeta de Debito"));
-          if (pago === 1){
+          pago = prompt("Ingrese como va a recargar:\n 1. Tarjeta de Credito. \n2. Tarjeta de Debito");
+          if (pago === "1"){
             alert("Usted recargo: "+ monto + " con tarjeta de credito. Obtiene un regalo de $200" );
             saldo = saldo + monto + 200;
           } else {
